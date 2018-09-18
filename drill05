@@ -1,20 +1,33 @@
 from pico2d import *
-
-open_canvas()
-
 grass = load_image('grass.png')
 character1 = load_image('animation_sheet.png')
 character2 = load_image('run-animation.png')
 
+x, y = 0, 0
 x1, y1 = 203, 535
+x2, y2 = 132, 243
+x3, y3 = 535, 470
+x4, y4 = 477, 203
+x5, y5 = 715, 136
+x6, y6 = 316, 225
+x7, y7 = 510, 92
+x8, y8 = 692, 518
+x9, y9 = 682, 336
+x10, y10 = 712, 349
 frame = 0
 
-def run_right(x1, y1, x2, y2):
+def run_right():
     pass
 
-def run_left(x1, y1, x2, y2):
+def run_left():
     pass
 
 while (1):
 
-    close_canvas()
+    if x1 < x2:
+        def run_right():
+            pass
+
+    else:
+        def run_left():
+            pass

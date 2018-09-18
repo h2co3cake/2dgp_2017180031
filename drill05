@@ -6,9 +6,15 @@ grass = load_image('grass.png')
 character1 = load_image('animation_sheet.png')
 character2 = load_image('run-animation.png')
 
-x = 0
+x1, y1 = 203, 535
 frame = 0
 
+def run_right(x1, y1, x2, y2):
+    pass
+
+def run_left(x1, y1, x2, y2):
+    pass
+
 while (1):
-    
+
     close_canvas()
